@@ -11,7 +11,7 @@ metadata:
     traefik.ingress.kubernetes.io/redirect-permanent: "true"
 spec:
   rules:
-  - host: drone.jon.dev
+  - host: 81.78.68.14
     http:
       paths:
       - path: /
